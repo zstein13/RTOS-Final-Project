@@ -9,6 +9,10 @@ Authored by:
 
 Here is our final presentation: [Final Presentation Link](https://docs.google.com/presentation/d/1q5KIJI5jbNL6v5L2D7ayR7ZGshla-eqgIjCNhvCPU5o/edit?usp=sharing)
 
+## Project Requirements
+
+Add requirements here.
+
 ## In this repo
 
 ### freeRTOS_ports 
