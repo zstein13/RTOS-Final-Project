@@ -11,7 +11,16 @@ Here is our final presentation: [Final Presentation Link](https://docs.google.co
 
 ## Project Requirements
 
-Add requirements here.
+1. Integrate cFS with FreeRTOS on the Pi Pico 
+2. Implement or adapt the OSAL (Operating System Abstraction Layer) for the Pi Pico 
+3. (OSAL Sub Rq) The system will allow the create and manage multiple concurrent tasks 
+4. (OSAL Sub Rq) The system shall support inter-task synchronization (mutexes, semaphores, or message queues) 
+5. (OSAL Sub Rq) The system shall implement sleep functions 
+6. Port PSP to run on the Pi Pico 
+7. (PSP Sub Rq) The system shall use the PSP in order to initialize all required hardware components before cFS startup. Including but not limited to system clock, on board memory, and applicable peripherals 
+8. (PSP Sub Rq) The system shall enable through the PSP a software system reset 
+9. Run basic cFS application (Hello World esk) to demonstrate system capabilities 
+10. Create instructions and Documentation for how to run cFS with OSAL and PSP modules implemented with freeRTOS on the Pi Pico 
 
 ## In this repo
 
